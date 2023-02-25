@@ -23,7 +23,6 @@
    **不确定宽高**
    absolute + transform
    line-height
-   writing-mode
    table/css-table
    flex
    grid
@@ -137,7 +136,7 @@
    - （找）DNS解析 -> 寻找哪台机器上有你需要资源 根据网址找IP
    - TCP连接 -> 客户端和服务器，TCP作为其传输层协议
    - 发送HTTP请求 -> HTTP报文是包裹在TCP报文中发送的 请求行，请求报头，请求正文
-   - 务器处理请求并返回HTTP报文 -> 状态码,响应报头和响应报文。
+   - 服务器处理请求并返回HTTP报文 -> 状态码,响应报头和响应报文。
    - 浏览器解析渲染页面 -> 浏览器在收到HTML,CSS,JS文件后依次渲染
    - 连接结束 -> 断开TCP连接 四次挥手
 
