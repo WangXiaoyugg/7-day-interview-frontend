@@ -111,7 +111,7 @@
    最方便的跨域方案 proxy代理+ Nginx：nginx是一款极其强大的web服务器，其优点就是轻量级、启动快、高并发。
    跨域问题的产生是因为浏览器的同源政策造成的，但是服务器与服务器之间的数据交换是没有这个限制。反向代理就是采用这种方式，建立一个虚拟的代理服务器来接收 internet 上的链接请求，然后转发给内部网络上的服务器，并将从服务器上得到的结果，返回给 internet 上请求链接的客户端。现在的新项目中nginx几乎是首选，我们用node或者java开发的服务通常都需要经过nginx的反向代理. 项目中在webpack中配置devServer即可
   
-   window.postMessage() 利用h5新特性window.postMessage()
+   利用h5新特性window.postMessage()
 
 10. JS中常见类型转换？
     ![类型转换](../assets/img/type-conversion.png)
